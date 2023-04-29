@@ -15,12 +15,6 @@ jobs:
         fix-version: false
         check: false
 
-#    - name: Upload build result
-#      uses: actions/upload-artifact@v2
-#      with:
-#        name: rpms
-#        path: RPMS
-
     - name: Upload build result
       uses: actions/upload-artifact@v2
       with:
