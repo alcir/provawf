@@ -19,6 +19,9 @@ project, including configuration, build, internationalization, help files, etc.
 %autosetup
 
 %build
+echo OOOOOOOOOOOOOOOOOOOOOOOOOOO
+pwd
+ls -la
 %configure
 %make_build
 
