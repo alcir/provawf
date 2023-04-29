@@ -1,12 +1,12 @@
 Name:          ambience-outrun
 Version:       1.0
-Release:       2
+Release:       3
 Summary:       A magical sound ambience
 Group:         System/Tools
 Vendor:        247
-Distribution:   SailfishOS
+Distribution:  SailfishOS
 Packager:      247 <>
-URL:            www.jollacommunity.it
+URL:           www.jollacommunity.it
 
 License:       GPL
 
