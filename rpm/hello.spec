@@ -7,7 +7,7 @@ URL:      http://ftp.gnu.org/gnu/hello
 Source0: https://ftp.gnu.org/gnu/hello/hello-%{version}.tar.gz
 
 BuildRequires: gettext
-BuildRequires:  %{_bindir}/aclocal
+BuildRequires: automake
 
 Requires(post): info
 Requires(preun): info
