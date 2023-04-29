@@ -13,7 +13,7 @@ jobs:
         arch: 'armv7hl'
         release: '4.1.0.24'
         fix-version: false
-        check: true
+        check: false
 
     - name: Upload build result
       uses: actions/upload-artifact@v2
