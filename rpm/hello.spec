@@ -1,6 +1,6 @@
 Name:     hello
 Version:  2.10
-Release:  1%{?dist}
+Release:  2%{?dist}
 Summary:  The "Hello World" program from GNU
 License:  GPLv3+
 URL:      http://ftp.gnu.org/gnu/hello
