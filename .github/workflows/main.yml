@@ -15,18 +15,14 @@ jobs:
         fix-version: false
         check: false
 
+#    - name: Upload build result
+#      uses: actions/upload-artifact@v2
+#      with:
+#        name: rpms
+#        path: RPMS
+
     - name: Upload build result
       uses: actions/upload-artifact@v2
       with:
         name: rpms
         path: RPMS
-
-    - run: mkdir -p path/to/artifact
-
-    - run: echo hello > path/to/artifact/world.txt
-
-    - name: prova
-      uses: actions/upload-artifact@v3
-      with:
-        name: my-artifact
-        path: path/to/artifact/world.txt
