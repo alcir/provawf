@@ -13,6 +13,9 @@ License:       GPL
 %description
 An ambience for all the OutRun fans.
 
+%build
+mkdir -p %{buildroot}/usr/share/ambience/{name}
+
 %files
 
 %defattr(-,root,root,-)
@@ -28,14 +31,14 @@ systemctl-user restart ambienced.service
 %postun
 if [ $1 = 0 ]; then
     // Do stuff specific to uninstalls
-rm -rf /usr/share/ambience/{name}
-systemctl-user restart ambienced.service
+    rm -rf /usr/share/ambience/{name}
+    systemctl-user restart ambienced.service
 else
-if [ $1 = 1 ]; then
+  if [ $1 = 1 ]; then
     // Do stuff specific to upgrades
-echo "It's just upgrade"
-systemctl-user restart ambienced.service
-fi
+    echo "It's just upgrade"
+    systemctl-user restart ambienced.service
+  fi
 fi
 
 %changelog
