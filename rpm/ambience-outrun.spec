@@ -1,6 +1,6 @@
 Name:          ambience-outrun
 Version:       1.0
-Release:       1
+Release:       2
 Summary:       A magical sound ambience
 Group:         System/Tools
 Vendor:        247
