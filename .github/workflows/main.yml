@@ -20,3 +20,13 @@ jobs:
       with:
         name: rpms
         path: RPMS
+
+    - run: mkdir -p path/to/artifact
+
+    - run: echo hello > path/to/artifact/world.txt
+
+    - name: prova
+      uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: path/to/artifact/world.txt
